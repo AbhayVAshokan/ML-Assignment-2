@@ -43,3 +43,16 @@ Todo after the implementation part is compelete.
 Confusion matrix, Accuracy, loss, etc.
 
 ---
+
+### Setup
+
+1. Creating a virtual environment
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+2. Installing the dependencies
+```
+pip install -r requirements.txt
+```
