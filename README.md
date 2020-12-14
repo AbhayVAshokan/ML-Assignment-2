@@ -14,22 +14,29 @@ This dataset includes descriptions of hypothetical samples corresponding to 23 s
 
 ### Random Forest
 
-A brief introduction of Random Forest Classification algorithm with an image.
+Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean/average prediction (regression) of the individual trees.
+We can understand the working of Random Forest algorithm with the help of following steps −
+
+Step 1 − First, start with the selection of random samples from a given dataset.
+
+Step 2 − Next, this algorithm will construct a decision tree for every sample. Then it will get the prediction result from every decision tree.
+
+Step 3 − In this step, voting will be performed for every predicted result.
+
+Step 4 − At last, select the most voted prediction result as the final prediction result.
 
 ---
 
 ### About the dataset
-A small insight into the dataset. Like what do we plan to do (classify poisonous from non poisonous). What are the different fields. Check the kaggle website.
+
+This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like "leaflets three, let it be'' for Poisonous Oak and Ivy.
+The objective of this classifier is to categorise the mushroom species into poisonous and non poisonous.
 
 ---
 
 ### Approach
 
 <ol>
-    <li>
-        <b>Reading dataset</b><br>
-        The dataset is read by specifying the directory.
-    </li>
     <li><b>Splitting dataset</b><br>
         The dataset is split into 80% training set and 20% test set. The datasets are saved in csv format.
     </li>
