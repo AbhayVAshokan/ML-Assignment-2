@@ -1,0 +1,5 @@
+pillow<7.0.0
+torch==1.4.0
+torchvision==0.5.0
+Flask==1.0.2
+fastai==1.0.60
